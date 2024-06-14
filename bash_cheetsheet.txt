@@ -44,7 +44,9 @@ Helpful commands:
       PHP:    php --version
       PERL:   perl --version
       
-      
+      DISPLAY DIRECTORY LISTING:
+      dir
+      ls -a
 
 
 
